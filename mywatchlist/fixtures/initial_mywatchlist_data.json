@@ -1,0 +1,112 @@
+[
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":1,
+        "fields":{
+            "title":"Crazy Little Thing Called Love",
+            "rating": "5",
+            "watched":"Yes",
+            "release_date" : "12/08/2010",
+            "review" : "This film is a pretty good school romance movie. And, even though it's oldish, it feels fresh"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":2,
+        "fields":{
+            "title":"Turning Red",
+            "rating": "3",
+            "watched":"Yes",
+            "release_date" : "20/03/2019",
+            "review" : "A good easy to watch Sunday movie... Lana Condor has great acting skills and is also stunningly pretty and effortless!"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":3,
+        "fields":{
+            "title":"To All The Boys I've Loved Before",
+            "rating": "4",
+            "watched":"Yes",
+            "release_date" : "17/08/2018",
+            "review" : "A good easy to watch Sunday movie... Lana Condor has great acting skills and is also stunningly pretty and effortless!"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":4,
+        "fields":{
+            "title":"The Kissing Booth",
+            "rating": "4",
+            "watched":"Yes",
+            "release_date" : "11/08/2021",
+            "review" : " A film to watch as a family one evening and forget about."
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":5,
+        "fields":{
+            "title":"Friendzone",
+            "rating": "5",
+            "watched":"Yes",
+            "release_date" : "12/08/2010",
+            "review" : "The story is simple but It is romantic and attractive and include funny scene.I also like it.And many people will see the beauty of our country."
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":6,
+        "fields":{
+            "title":"Thor : Love and Thunder",
+            "rating": "4",
+            "watched":"Yes",
+            "release_date" : "6/07/2022",
+            "review" : "In Thor: Love and Thunder, the fourth movie dedicated to the blonde and beautiful Norse god, director Taika Waititi tries his best to resist those canine qualities from slobbering over his PG-13 rating. "
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":7,
+        "fields":{
+            "title":"Crazy Rich Asian",
+            "rating": "5",
+            "watched":"Yes",
+            "release_date" : "15/08/2018",
+            "review" : "This movie was very entertaining. It was cool to see a mashup of romcom & party comedy to the backdrop of Chinese/Singapore culture & family traditions."
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":8,
+        "fields":{
+            "title":"5cm",
+            "rating": "4",
+            "watched":"Yes",
+            "release_date" : "12/12/2012",
+            "review" : "I like this movie because it introduced each of the characters by taking unique point of view, it makes the audience can feel the joy of the movie. "
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":9,
+        "fields":{
+            "title":"How to Train Your Dragon",
+            "rating": "4",
+            "watched":"Yes",
+            "release_date" : "15/08/2010",
+            "review" : "The story is very engaging; there is nothing too sophisticated for kids and nothing too childish for adults.The characters are another strength. All the animations are spectacular!"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":10,
+        "fields":{
+            "title":"Candy Jar",
+            "rating": "5",
+            "watched":"Yes",
+            "release_date" : "27/04/2018",
+            "review" : "Sweet and Smart, part love story, part life lessons Candy Jar is a charmer."
+        }
+    }
+]
