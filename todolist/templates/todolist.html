@@ -10,11 +10,11 @@
 <table>
     <tr>
     <th>Todo</th>
-    <th>Tanggal</th>
-    <th>Deskripsi</th>
-    <th>Selesai/Belum Selesai</th>
-    <th>Mengubah Status To Do</th>
-    <th>Hapus</th>
+    <th>Date</th>
+    <th>Desc</th>
+    <th>Status</th>
+    <th>Check</th>
+    <th>Delete</th>
     </tr>
     {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
     {% for todolist in todo_list %}
@@ -36,7 +36,7 @@
 
 
 <h5>Sesi terakhir login: {{ last_login }}</h5>
-<button><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button>
+<button><a href="{% url 'todolist:create-task' %}">add task</a></button>
 <button><a href="{% url 'todolist:logout' %}">Logout</a></button>
 
 
