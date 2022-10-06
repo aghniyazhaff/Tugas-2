@@ -1,45 +1,85 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block meta %}
 
-{% block meta %}
-<title>Login</title>
-{% endblock meta %}
+{% endblock meta %} {% block content %}
 
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<div class = "login">
+    <title>Login Todolist</title>
+  </head>
+  <body>
+    <div class="global-container">
+      <div class="card login-form">
+        <div class="card-body">
+          <h1 class="card-title text-center">L O G I N</h1>
+        </div>
 
-    <h1>Login</h1>
+        <form method="POST" action="">
+            {% csrf_token %}
 
-    <form method="POST" action="">
-        {% csrf_token %}
-        <table>
-            <tr>
-                <td>Username: </td>
-                <td><input type="text" name="username" placeholder="Username" class="form-control"></td>
-            </tr>
-                    
-            <tr>
-                <td>Password: </td>
-                <td><input type="password" name="password" placeholder="Password" class="form-control"></td>
-            </tr>
+        <div class="çard-text">
+          <form>
+            <div class="mb-3">
+              <label for="inputUsername3" class="form-label">Username</label>
+                <input type="text" placeholder="Username" name="username"  class="form-control" />
+              </div>
+            </div>
 
-            <tr>
-                <td></td>
-                <td><input class="btn login_btn" type="submit" value="Login"></td>
-            </tr>
-        </table>
-    </form>
+            <div class="mb-3">
+              <label for="inputPassword3" class="form-label">Password</label>
+                <input type="password" name="password" placeholder="Password" class="form-control" />
+              </div>
+              <div class="mb-3">
+            </div>
 
-    {% if messages %}
-        <ul>
-            {% for message in messages %}
-                <li>{{ message }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-        
-    Belum mempunyai akun? <a href="{% url 'todolist:register' %}">Buat Akun</a>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+          {% if messages %}
+      <ul>
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+      
+      {% endif %} Belum mempunyai akun? <a href="{% url 'todolist:register' %}">Buat Akun</a>
+            </div>
 
-</div>
 
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+  <style>
+    body {
+        height: 100%;   
+        background-color: #32222d!important;
+    
+    }
+
+    .global-container{
+        height: 100%;
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        color: rgb(227, 130, 192);
+    }
+
+    .login-form{
+        width: 380px;
+        height: 450px;
+        padding: 20px;
+        background-color: #32222d !important;
+
+    }
+  </style>
+</html>
 {% endblock content %}

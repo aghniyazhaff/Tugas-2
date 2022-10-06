@@ -35,3 +35,5 @@ Tentu kita dapat membuat atau merender elemen <form> secara manual dengan cara m
     6. Ketika user memencet tombol tambah task, user akan diarahkan ke halaman baru todolist/create-task dan akan membuat form yang berisi task dan description yang akan dikirim ke fungsi create di views.py untuk ditambahkan ke database.
     7. Membuat route agar terhubung dengan fungsi fungsi yang ada di views py ketika mengakses link todolist/register, login, create-task, delete, change, dan lain-lain.
     8. Deploy ke heroku dan membuat 2 user dengan masing-masing 3 dummy list to do.
+    - username 1 : dummy1 ; password: coba1234
+    - username 2 : dummy2 ; password: coba1234
