@@ -5,11 +5,7 @@
         "fields":{
             "title":"Crazy Little Thing Called Love",
             "rating": 5,
-<<<<<<< HEAD
             "watched": true,
-=======
-            "watched":true,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "12/08/2010",
             "review" : "This film is a pretty good school romance movie. And, even though it's oldish, it feels fresh"
         }
@@ -20,11 +16,7 @@
         "fields":{
             "title":"Turning Red",
             "rating": 3,
-<<<<<<< HEAD
             "watched": true,
-=======
-            "watched":true,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "20/03/2019",
             "review" : "A good easy to watch Sunday movie... Lana Condor has great acting skills and is also stunningly pretty and effortless!"
         }
@@ -46,7 +38,7 @@
         "fields":{
             "title":"The Kissing Booth",
             "rating": 4,
-            "watched":true,
+            "watched":false,
             "release_date" : "11/08/2021",
             "review" : " A film to watch as a family one evening and forget about."
         }
@@ -57,11 +49,7 @@
         "fields":{
             "title":"Friendzone",
             "rating": 5,
-<<<<<<< HEAD
             "watched":false,
-=======
-            "watched":true,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "12/08/2010",
             "review" : "The story is simple but It is romantic and attractive and include funny scene.I also like it.And many people will see the beauty of our country."
         }
@@ -72,11 +60,7 @@
         "fields":{
             "title":"Thor : Love and Thunder",
             "rating": 4,
-<<<<<<< HEAD
             "watched":true,
-=======
-            "watched":false,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "6/07/2022",
             "review" : "In Thor: Love and Thunder, the fourth movie dedicated to the blonde and beautiful Norse god, director Taika Waititi tries his best to resist those canine qualities from slobbering over his PG-13 rating. "
         }
@@ -87,11 +71,7 @@
         "fields":{
             "title":"Crazy Rich Asian",
             "rating": 5,
-<<<<<<< HEAD
             "watched":true,
-=======
-            "watched":false,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "15/08/2018",
             "review" : "This movie was very entertaining. It was cool to see a mashup of romcom & party comedy to the backdrop of Chinese/Singapore culture & family traditions."
         }
@@ -123,13 +103,8 @@
         "pk":10,
         "fields":{
             "title":"Candy Jar",
-<<<<<<< HEAD
             "rating": 4,
             "watched":true,
-=======
-            "rating": 5,
-            "watched":fa;se,
->>>>>>> ab9f0c308f272c790550e29724f1766d386a4131
             "release_date" : "27/04/2018",
             "review" : "Sweet and Smart, part love story, part life lessons Candy Jar is a charmer."
         }
